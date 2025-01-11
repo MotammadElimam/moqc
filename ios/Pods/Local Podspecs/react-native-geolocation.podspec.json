@@ -1,0 +1,23 @@
+{
+  "name": "react-native-geolocation",
+  "version": "3.4.0",
+  "summary": "React Native Geolocation Module for iOS and Android",
+  "license": "MIT",
+  "authors": "React Native Community",
+  "homepage": "https://github.com/michalchudziak/react-native-geolocation#README.md",
+  "platforms": {
+    "ios": "9.0",
+    "visionos": "1.0"
+  },
+  "source": {
+    "git": "https://github.com/react-native-community/react-native-geolocation.git",
+    "tag": "v3.4.0"
+  },
+  "source_files": "ios/**/*.{h,m,mm}",
+  "frameworks": "CoreLocation",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

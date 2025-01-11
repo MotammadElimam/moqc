@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moqc"
+4    android:versionCode="13"
+5    android:versionName="5.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/admin/Documents/moqc_updated/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/admin/Documents/moqc_updated/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:10:5-65
+12-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:10:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:4:5-81
+13-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:2:5-67
+14-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:2:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:3:5-79
+15-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:3:22-77
+16    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+16-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:5:5-81
+16-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:5:22-78
+17    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+17-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:6:5-88
+17-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:6:22-85
+18
+19    <uses-feature
+19-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:7:5-98
+20        android:name="android.hardware.sensor.accelerometer"
+20-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:7:19-71
+21        android:required="true" />
+21-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:7:72-95
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:8:5-79
+23-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:8:22-76
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:9:5-71
+24-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:9:22-68
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:11:5-79
+25-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:11:22-76
+26    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+26-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:14:5-76
+26-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:14:22-73
+27
+28    <uses-feature
+28-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:15:5-85
+29        android:name="android.hardware.camera"
+29-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:15:19-57
+30        android:required="false" />
+30-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:15:58-82
+31    <uses-feature
+31-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:16:5-91
+32        android:name="android.hardware.camera.front"
+32-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:16:19-63
+33        android:required="false" />
+33-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:16:64-88
+34
+35    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+35-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:20:1-77
+35-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:20:18-74
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+36-->[com.facebook.flipper:flipper:0.99.0] /Users/admin/.gradle/caches/transforms-3/c5130b87b967e64bc2d1ff7ae36f0cf8/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+36-->[com.facebook.flipper:flipper:0.99.0] /Users/admin/.gradle/caches/transforms-3/c5130b87b967e64bc2d1ff7ae36f0cf8/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+37    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+37-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-73
+37-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-70
+38    <!--
+39         Required to keep CPU alive while downloading files
+40        (NOT to keep screen awake)
+41    -->
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-68
+42-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:22-65
+43
+44    <application
+44-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:21:5-45:19
+45        android:name="com.moqc.MainApplication"
+45-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:23:7-38
+46        android:allowBackup="false"
+46-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:29:7-34
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.5.0] /Users/admin/.gradle/caches/transforms-3/6182fe6d65ef8961a040b52a46bdfbf6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:hardwareAccelerated="true"
+49-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:24:7-41
+50        android:icon="@mipmap/ic_launcher"
+50-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:27:7-41
+51        android:label="@string/app_name"
+51-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:26:7-39
+52        android:largeHeap="true"
+52-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:22:5-29
+53        android:requestLegacyExternalStorage="true"
+53-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:25:7-50
+54        android:roundIcon="@mipmap/ic_launcher"
+54-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:28:7-46
+55        android:theme="@style/AppTheme"
+55-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:30:7-38
+56        android:usesCleartextTraffic="true" >
+56-->/Users/admin/Documents/moqc_updated/android/app/src/debug/AndroidManifest.xml:8:18-53
+57        <activity
+57-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:31:7-43:12
+58            android:name="com.moqc.MainActivity"
+58-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:32:3-31
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+59-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:34:3-80
+60            android:exported="true"
+60-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:38:3-26
+61            android:hardwareAccelerated="true"
+61-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:36:3-37
+62            android:label="@string/app_name"
+62-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:33:3-35
+63            android:launchMode="singleTask"
+63-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:35:3-34
+64            android:windowSoftInputMode="adjustResize" >
+64-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:37:3-45
+65            <intent-filter>
+65-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:39:3-42:19
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:40:7-59
+66-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:40:15-56
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:41:7-67
+68-->/Users/admin/Documents/moqc_updated/android/app/src/main/AndroidManifest.xml:41:17-64
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:58
+72            android:name="cn.finalteam.rxgalleryfinal.ui.activity.MediaActivity"
+72-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-81
+73            android:exported="true"
+73-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-36
+74            android:screenOrientation="portrait"
+74-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-49
+75            android:theme="@style/Theme_Light.Default" />
+75-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-55
+76        <activity
+76-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-16:58
+77            android:name="com.yalantis.ucrop.UCropActivity"
+77-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-60
+78            android:screenOrientation="portrait"
+78-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-49
+79            android:theme="@style/Theme_Light.Default" />
+79-->[:react-native-customized-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-customized-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-55
+80        <activity android:name="com.masteratul.exceptionhandler.DefaultErrorScreen" >
+80-->[:react-native-exception-handler] /Users/admin/Documents/moqc_updated/node_modules/react-native-exception-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-9:20
+80-->[:react-native-exception-handler] /Users/admin/Documents/moqc_updated/node_modules/react-native-exception-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:19-84
+81        </activity>
+82
+83        <provider
+83-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+84            android:name="com.imagepicker.ImagePickerProvider"
+84-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+85            android:authorities="com.moqc.imagepickerprovider"
+85-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+86            android:exported="false"
+86-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+87            android:grantUriPermissions="true" >
+87-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+88            <meta-data
+88-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+90                android:resource="@xml/imagepicker_provider_paths" />
+90-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+91        </provider>
+92        <provider
+92-->[:react-native-webview] /Users/admin/Documents/moqc_updated/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+93            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+93-->[:react-native-webview] /Users/admin/Documents/moqc_updated/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+94            android:authorities="com.moqc.fileprovider"
+94-->[:react-native-webview] /Users/admin/Documents/moqc_updated/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+95            android:exported="false"
+95-->[:react-native-webview] /Users/admin/Documents/moqc_updated/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+96            android:grantUriPermissions="true" >
+96-->[:react-native-webview] /Users/admin/Documents/moqc_updated/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+97            <meta-data
+97-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+99                android:resource="@xml/file_provider_paths" />
+99-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+100        </provider>
+101        <provider
+101-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-40:20
+102            android:name="com.RNFetchBlob.Utils.FileProvider"
+102-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-62
+103            android:authorities="com.moqc.provider"
+103-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-60
+104            android:exported="false"
+104-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-37
+105            android:grantUriPermissions="true" >
+105-->[:rn-fetch-blob] /Users/admin/Documents/moqc_updated/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-47
+106            <meta-data
+106-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+108                android:resource="@xml/provider_paths" />
+108-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+109        </provider>
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:18.1.0] /Users/admin/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:18.1.0] /Users/admin/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:18.1.0] /Users/admin/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:18.1.0] /Users/admin/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:18.1.0] /Users/admin/.gradle/caches/transforms-3/20fdcf5775d00635f5f23eacb7b4bee9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:18.1.0] /Users/admin/.gradle/caches/transforms-3/20fdcf5775d00635f5f23eacb7b4bee9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:18.1.0] /Users/admin/.gradle/caches/transforms-3/20fdcf5775d00635f5f23eacb7b4bee9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+119
+120        <provider
+120-->[com.github.shijingsh:fileprovider:1.1.0] /Users/admin/.gradle/caches/transforms-3/7a8776f22e4de6727763f76d08cae17f/transformed/jetified-fileprovider-1.1.0/AndroidManifest.xml:12:9-20:20
+121            android:name="com.zhy.base.fileprovider.MgFileProvider"
+121-->[com.github.shijingsh:fileprovider:1.1.0] /Users/admin/.gradle/caches/transforms-3/7a8776f22e4de6727763f76d08cae17f/transformed/jetified-fileprovider-1.1.0/AndroidManifest.xml:13:13-68
+122            android:authorities="com.moqc.android7.mg.fileprovider"
+122-->[com.github.shijingsh:fileprovider:1.1.0] /Users/admin/.gradle/caches/transforms-3/7a8776f22e4de6727763f76d08cae17f/transformed/jetified-fileprovider-1.1.0/AndroidManifest.xml:14:13-76
+123            android:exported="false"
+123-->[com.github.shijingsh:fileprovider:1.1.0] /Users/admin/.gradle/caches/transforms-3/7a8776f22e4de6727763f76d08cae17f/transformed/jetified-fileprovider-1.1.0/AndroidManifest.xml:15:13-37
+124            android:grantUriPermissions="true" >
+124-->[com.github.shijingsh:fileprovider:1.1.0] /Users/admin/.gradle/caches/transforms-3/7a8776f22e4de6727763f76d08cae17f/transformed/jetified-fileprovider-1.1.0/AndroidManifest.xml:16:13-47
+125            <meta-data
+125-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+127                android:resource="@xml/mg_file_paths" />
+127-->[:react-native-image-picker] /Users/admin/Documents/moqc_updated/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+128        </provider>
+129    </application>
+130
+131</manifest>

@@ -1,0 +1,6 @@
+module Pods_moqc {
+  umbrella header "Pods-moqc-umbrella.h"
+
+  export *
+  module * { export * }
+}
