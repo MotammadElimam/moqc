@@ -1688,7 +1688,6 @@ drawable src_assets_home_a
 drawable src_assets_home_f
 drawable src_assets_internet
 drawable src_assets_it_dash
-drawable src_assets_kaaba
 drawable src_assets_logo
 drawable src_assets_logout
 drawable src_assets_magrib

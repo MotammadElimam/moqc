@@ -96,10 +96,6 @@
         "source": "com.moqc.app-react-21:/drawable-mdpi/src_assets_threads.png"
     },
     {
-        "merged": "com.moqc.app-merged_res-26:/drawable-mdpi_src_assets_kaaba.png.flat",
-        "source": "com.moqc.app-react-21:/drawable-mdpi/src_assets_kaaba.png"
-    },
-    {
         "merged": "com.moqc.app-merged_res-26:/raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
         "source": "com.moqc.app-main-27:/raw/node_modules_reactnativevectoricons_glyphmaps_zocial.json"
     },

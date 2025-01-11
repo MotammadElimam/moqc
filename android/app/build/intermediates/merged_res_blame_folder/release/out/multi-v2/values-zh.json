@@ -4,7 +4,7 @@
             "outputFile": "com.moqc.app-mergeReleaseResources-24:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-3/ac6fa96a95d7f2d33214b1ef2d2d22e9/transformed/jetified-ucrop-2.2.5/res/values-zh/values-zh.xml",
+                    "source": "/Users/motamadalemam/.gradle/caches/transforms-3/ac6fa96a95d7f2d33214b1ef2d2d22e9/transformed/jetified-ucrop-2.2.5/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
