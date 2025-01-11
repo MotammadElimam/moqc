@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.github.yalantis:ucrop:2.2.5@aar">
+  <library name="Gradle: com.github.yalantis:ucrop:2.2.5@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ac6fa96a95d7f2d33214b1ef2d2d22e9/transformed/jetified-ucrop-2.2.5/annotations.zip!/" />
     </ANNOTATIONS>

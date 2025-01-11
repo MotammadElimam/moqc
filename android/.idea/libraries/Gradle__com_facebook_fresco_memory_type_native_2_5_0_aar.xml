@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.facebook.fresco:memory-type-native:2.5.0@aar">
+  <library name="Gradle: com.facebook.fresco:memory-type-native:2.5.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cad1f19dc4a778b90c238b030e6e6259/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cad1f19dc4a778b90c238b030e6e6259/transformed/jetified-memory-type-native-2.5.0/jars/classes.jar!/" />

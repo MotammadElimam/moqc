@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.facebook.fresco:nativeimagefilters:2.5.0@aar">
+  <library name="Gradle: com.facebook.fresco:nativeimagefilters:2.5.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d8a8f021cc48154d263ab4bcc8a3027f/transformed/jetified-nativeimagefilters-2.5.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d8a8f021cc48154d263ab4bcc8a3027f/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml" />

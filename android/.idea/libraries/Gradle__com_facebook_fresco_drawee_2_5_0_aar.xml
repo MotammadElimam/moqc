@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.facebook.fresco:drawee:2.5.0@aar">
+  <library name="Gradle: com.facebook.fresco:drawee:2.5.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cd75eaa85d746aad75af45012bb5cf27/transformed/jetified-drawee-2.5.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cd75eaa85d746aad75af45012bb5cf27/transformed/jetified-drawee-2.5.0/jars/classes.jar!/" />

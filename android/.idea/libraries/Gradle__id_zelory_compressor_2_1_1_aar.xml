@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: id.zelory:compressor:2.1.1@aar">
+  <library name="Gradle: id.zelory:compressor:2.1.1@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/adc44dc005690ddc7b10829bde3cd945/transformed/jetified-compressor-2.1.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/adc44dc005690ddc7b10829bde3cd945/transformed/jetified-compressor-2.1.1/jars/classes.jar!/" />
