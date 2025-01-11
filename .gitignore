@@ -4,3 +4,5 @@ screenshots
 
 android/.gradle/
 android/app/build/
+*.apk
+*.aab
