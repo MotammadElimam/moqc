@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.autofill:autofill:1.1.0@aar">
+  <library name="Gradle: androidx.autofill:autofill:1.1.0@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cd6abeb45b960db6044580d8a2c03ba3/transformed/jetified-autofill-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>

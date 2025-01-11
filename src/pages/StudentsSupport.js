@@ -266,10 +266,10 @@ class StudentsSupport extends React.Component {
                                             <Text style={{ fontWeight: "normal" }}>{i18n.language == "en" ? this.state.students?.nationality.country_name : this.state.students?.nationality.country_name_ar}</Text>
                                         </View>
 
-                                        <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 5 }}>
+                                        {/* <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 5 }}>
                                             <Text style={{ fontWeight: "bold" }}>{i18n.t('Did You Join MOQC Before?')}:</Text>
                                             <Text style={{ fontWeight: "normal" }}>{i18n.t(this.state.students?.joined_classes)}</Text>
-                                        </View>
+                                        </View> */}
 
                                         <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 5 }}>
                                             <Text style={{ fontWeight: "bold" }}>{i18n.t('Date of Birth')}:</Text>
@@ -305,10 +305,14 @@ class StudentsSupport extends React.Component {
                                             <Text style={{ fontWeight: "bold" }}>{i18n.t('Job')}:</Text>
                                             <Text style={{ fontWeight: "normal" }}>{this.state.students?.job['name_' + i18n.language]}</Text>
                                         </View>
-                                        <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 5 }}>
-                                            <Text style={{ fontWeight: "bold" }}>{i18n.t('Where did you find us')}:</Text>
+                                         <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 5 }}>
+                                            <Text style={{ fontWeight: "bold" }}>{i18n.t('location')}:</Text>
                                             <Text style={{ fontWeight: "normal" }}>{this.state.students?.location['name_' + i18n.language]}</Text>
                                         </View>
+                                        {/* <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 5 }}>
+                                            <Text style={{ fontWeight: "bold" }}>{i18n.t('Where did you find us')}:</Text>
+                                            <Text style={{ fontWeight: "normal" }}>{this.state.students?.location['name_' + i18n.language]}</Text>
+                                        </View> */}
 
                                         <View style={{ flexDirection: "row", justifyContent: "space-between", marginVertical: 5 }}>
                                             <Text style={{ fontWeight: "bold" }}>{i18n.t("Memorized Juz'")}:</Text>

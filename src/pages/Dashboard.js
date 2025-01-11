@@ -104,7 +104,7 @@ class Dashboard extends React.Component {
                             }}>
                             <View style={{ margin: 20 }}>
                                 <View>
-                                    <Text style={{ fontWeight: "bold", fontSize: 16 }}>{i18n.t('Select your Dashboard and Navigate')}</Text>
+                                    {/* <Text style={{ fontWeight: "bold", fontSize: 16 }}>{i18n.t('Select your Dashboard and Navigate')}</Text> */}
                                 </View>
 
                                 <View style={{ marginVertical: 10 }}>
