@@ -448,11 +448,11 @@ class ItStudentView extends React.Component {
                 });
             }
             else  {
-                Alert.alert('Error', 'Failed to generate Microsoft email');
+                Alert.alert(i18n.t('ُError'), i18n.t('Failed to generate Microsoft email'));
             }
         } catch (error) {
             console.error('Error generating Microsoft email:', error);
-            Alert.alert('Error', 'Failed to generate Microsoft email');
+            Alert.alert(i18n.t('ُError'), i18n.t('Failed to generate Microsoft email'));
         } finally {
             this.setState({ isCreatingEmail: false });
         }
@@ -487,7 +487,7 @@ class ItStudentView extends React.Component {
             }
         } catch (error) {
             console.error('Error assigning email:', error);
-            Alert.alert('Error', 'Failed to assign email');
+            Alert.alert(i18n.t('Error'), i18n.t('Failed to assign email'));
         } finally {
             this.setState({ isAssigningEmail: false });
         }
@@ -511,12 +511,21 @@ class ItStudentView extends React.Component {
                     <View style={styles.contentContainer}>
                         <View style={styles.card}>
                             <View style={styles.formContainer}>
-                                <View style={styles.fieldRow}>
+                                {/* <View style={styles.fieldRow}>
                                     <Text style={styles.label}>{i18n.t('Student ID')}: </Text>
                                     <Text>{studentDetail.student_id}</Text>
+                                </View> */}
+
+                                <View style={styles.fieldRow}>
+                                    <Text style={styles.label}>{i18n.t('Name')}: </Text>
+                                    <Text>{studentDetail.first_name}</Text>
+                                </View>
+                                <View style={styles.fieldRow}>
+                                    <Text style={styles.label}>{i18n.t('Teacher Note')}: </Text>
+                                    <Text>{studentDetail.teacher_message}</Text>
                                 </View>
 
-                                <View style={styles.fieldGroup}>
+                                {/* <View style={styles.fieldGroup}>
                                     <Text style={styles.label}>{i18n.t('Student Email')}: </Text>
                                     <TextInput
                                         style={styles.input}
@@ -530,9 +539,9 @@ class ItStudentView extends React.Component {
                                             });
                                         }}
                                     />
-                                </View>
+                                </View> */}
 
-                                <View style={styles.fieldGroup}>
+                                {/* <View style={styles.fieldGroup}>
                                     <Text style={styles.label}>{i18n.t('Microsoft Email')}: </Text>
                                     <View style={styles.pickerContainer}>
                                         <Picker
@@ -555,9 +564,9 @@ class ItStudentView extends React.Component {
                                             ))}
                                         </Picker>
                                     </View>
-                                </View>
+                                </View> */}
 
-                                <View style={styles.fieldGroup}>
+                                {/* <View style={styles.fieldGroup}>
                                     <Text style={styles.label}>{i18n.t('Student Password')}: </Text>
                                     <TextInput
                                         style={styles.input}
@@ -572,9 +581,9 @@ class ItStudentView extends React.Component {
                                         }}
                                         secureTextEntry
                                     />
-                                </View>
+                                </View> */}
 
-                                <View style={styles.fieldGroup}>
+                                {/* <View style={styles.fieldGroup}>
                                     <Text style={styles.label}>{i18n.t('Course')}: </Text>
                                     <View style={styles.pickerContainer}>
                                         <Picker
@@ -598,9 +607,9 @@ class ItStudentView extends React.Component {
                                             ))}
                                         </Picker>
                                     </View>
-                                </View>
+                                </View> */}
 
-                                <View style={styles.fieldGroup}>
+                                {/* <View style={styles.fieldGroup}>
                                     <Text style={styles.label}>{i18n.t('Student Level')}: </Text>
                                     <View style={styles.pickerContainer}>
                                         <Picker
@@ -620,16 +629,16 @@ class ItStudentView extends React.Component {
                                             <Picker.Item label={i18n.t("Excellent")} value="3" />
                                         </Picker>
                                     </View>
-                                </View>
+                                </View> */}
 
-                                <TouchableOpacity 
+                                {/* <TouchableOpacity 
                                     style={styles.updateButton}
                                     onPress={this.update}
                                 >
                                     <Text style={styles.updateButtonText}>
                                         {i18n.t('Update')}
                                     </Text>
-                                </TouchableOpacity>
+                                </TouchableOpacity> */}
 
                                 {!this.state.showEmailCredentials ? (
                                     <TouchableOpacity

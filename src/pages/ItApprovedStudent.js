@@ -404,7 +404,7 @@ class ItApprovedStudent extends React.Component {
                     style={styles.viewButton}
                     onPress={() => this.props.navigation.navigate("ItStudentView", { st_id: item.id })}
                 >
-                    <Text style={styles.buttonText}>{i18n.t('View')}</Text>
+                    <Text style={styles.buttonText}>{i18n.t('Assign Email ID')}</Text>
                 </TouchableOpacity>
                 <View style={{height:10}}  />
                 <TouchableOpacity

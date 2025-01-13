@@ -431,9 +431,10 @@ const resources = {
 "Back to Teacher":"إرجاع إلى إدارة المجالس القرأنية",
 "Assign Email ID":"تعيين البريد الالكتروني",
 "email assigned successfully":"تم تعيين البريد الالكتروني بنجاح",
-
-       
-
+"Teacher Note":"ملاحظة إدارة المجالس القرانية",
+"Failed to generate Microsoft email":"فشل في إنشاء البريد الالكتروني ",
+"ُError":"خطأ",
+"Failed to assign email":"فشل في تعيين البريد الالكتروني",
       
 
 

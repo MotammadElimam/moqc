@@ -2,7 +2,7 @@
 <module external.linked.project.id=":react-native-pager-view:unitTest" external.linked.project.path="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/debugUnitTest/kotlin;/Users/motamadalemam/Project/Moqc/moqc/node_modules/react-native-pager-view/android/src/debug/kotlin;/Users/motamadalemam/Project/Moqc/moqc/node_modules/react-native-pager-view/android/src/debug/java;/Users/motamadalemam/Project/Moqc/moqc/node_modules/react-native-pager-view/android/src/debugAndroidTest/kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/release/kotlin;/Users/motamadalemam/Project/Moqc/moqc/node_modules/react-native-pager-view/android/src/release/java;/Users/motamadalemam/Project/Moqc/moqc/node_modules/react-native-pager-view/android/src/releaseUnitTest/kotlin">
         <additionalVisibleModuleNames>:react-native-pager-view:main</additionalVisibleModuleNames>
         <compilerSettings />
         <compilerArguments>
@@ -12,18 +12,18 @@
             <flagArg name="noStdlib" arg="true" />
           </flagArguments>
           <stringArguments>
-            <stringArg name="destination" arg="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/tmp/kotlin-classes/debugUnitTest" />
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/tmp/kotlin-classes/releaseUnitTest" />
             <stringArg name="jvmTarget" arg="1.8" />
-            <stringArg name="moduleName" arg="react-native-pager-view_debug" />
+            <stringArg name="moduleName" arg="react-native-pager-view_release" />
             <stringArg name="apiVersion" arg="1.5" />
             <stringArg name="languageVersion" arg="1.5" />
           </stringArguments>
           <arrayArguments>
             <arrayArg name="friendPaths">
               <args>
-                <arg>$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/tmp/kotlin-classes/debug</arg>
-                <arg>$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/javac/debug/classes</arg>
-                <arg>$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/tmp/kotlin-classes/release</arg>
+                <arg>$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/javac/release/classes</arg>
+                <arg>$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/compile_library_classes_jar/release/classes.jar</arg>
               </args>
             </arrayArg>
             <arrayArg name="pluginClasspaths" />
@@ -34,7 +34,7 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="SELECTED_BUILD_VARIANT" value="release" />
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
@@ -44,11 +44,11 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/javac/debugUnitTest/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/intermediates/javac/releaseUnitTest/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/generated/ap_generated_sources/debugUnitTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/build/generated/ap_generated_sources/releaseUnitTest/out" />
     <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/testDebug" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-pager-view/android/src/testRelease" />
     <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="moqc.react-native-pager-view.main" scope="TEST" />
