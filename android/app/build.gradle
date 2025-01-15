@@ -130,11 +130,11 @@ android {
 
     defaultConfig {
         // applicationId "ae.moqc.app"
-        applicationId "com.moqc"
+        applicationId "com.moqcApp"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 13
-        versionName "5.1.1"
+        versionCode 1
+        versionName "1"
         multiDexEnabled true
     }
     splits {
