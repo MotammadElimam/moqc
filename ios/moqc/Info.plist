@@ -55,6 +55,8 @@
 	<string>This app requires access to the Location to set the prayers time. </string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app does not require access to the microphone.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app requires access to your location to provide personalized features and improve user experience.</string>
 	<key>NSMotionUsageDescription</key>
 	<string>We need access to your device&apos;s motion sensors to provide a better experience.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
