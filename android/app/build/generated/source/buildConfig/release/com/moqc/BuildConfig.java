@@ -5,8 +5,8 @@ package com.moqc;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;
-  public static final String APPLICATION_ID = "com.moqc";
+  public static final String APPLICATION_ID = "com.moqcApp";
   public static final String BUILD_TYPE = "release";
-  public static final int VERSION_CODE = 13;
-  public static final String VERSION_NAME = "5.1.1";
+  public static final int VERSION_CODE = 1;
+  public static final String VERSION_NAME = "1";
 }

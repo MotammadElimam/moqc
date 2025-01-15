@@ -1,1 +1,1 @@
-com.moqc
+com.moqcApp

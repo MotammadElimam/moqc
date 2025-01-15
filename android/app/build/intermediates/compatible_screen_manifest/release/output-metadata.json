@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.moqc",
+  "applicationId": "com.moqcApp",
   "variantName": "release",
   "elements": []
 }

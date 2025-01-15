@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.moqc"
-    android:versionCode="13"
-    android:versionName="5.1.1" >
+    package="com.moqcApp"
+    android:versionCode="1"
+    android:versionName="1" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -52,6 +52,7 @@
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.moqc.MainActivity"
@@ -81,7 +82,7 @@
 
         <provider
             android:name="com.imagepicker.ImagePickerProvider"
-            android:authorities="com.moqc.imagepickerprovider"
+            android:authorities="com.moqcApp.imagepickerprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -90,7 +91,7 @@
         </provider>
         <provider
             android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-            android:authorities="com.moqc.fileprovider"
+            android:authorities="com.moqcApp.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -99,7 +100,7 @@
         </provider>
         <provider
             android:name="com.RNFetchBlob.Utils.FileProvider"
-            android:authorities="com.moqc.provider"
+            android:authorities="com.moqcApp.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -118,7 +119,7 @@
 
         <provider
             android:name="com.zhy.base.fileprovider.MgFileProvider"
-            android:authorities="com.moqc.android7.mg.fileprovider"
+            android:authorities="com.moqcApp.android7.mg.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
