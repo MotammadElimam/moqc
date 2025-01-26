@@ -6,3 +6,11 @@ android/.gradle/
 android/app/build/
 *.apk
 *.aab
+ios
+ios/Pods
+ios/build
+ios/DerivedData
+ios/*.lock
+ios/*.xcworkspace
+
+android
