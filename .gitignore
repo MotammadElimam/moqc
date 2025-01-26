@@ -1,16 +1,17 @@
-node_modules
+node_modules/
+screenshots/
 
-screenshots
+# iOS
+ios/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.lock
+ios/*.xcworkspace
 
+# Android
+android/
 android/.gradle/
 android/app/build/
 *.apk
 *.aab
-ios
-ios/Pods
-ios/build
-ios/DerivedData
-ios/*.lock
-ios/*.xcworkspace
-
-android

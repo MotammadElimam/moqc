@@ -1,6 +1,0 @@
-module Pods_moqc_moqcTests {
-  umbrella header "Pods-moqc-moqcTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
